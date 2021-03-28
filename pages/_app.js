@@ -1,7 +1,7 @@
-function MyApp({ Component, pageProps }) {
+function MyApp() {
   return (
     <>
-      <h1>Eita</h1>
+      <h1>Fala sócio huahu. é nois que voa, cuidado com o buguelito</h1>
     </>
   )
 }
