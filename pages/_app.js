@@ -1,7 +1,11 @@
+import GithubCorner from '../src/components/GithubCorner'
+import HeaderP from '../src/components/HeaderP'
+
 function MyApp() {
   return (
     <>
-      <h1>Fala sócio huahu. é nois que voa, cuidado com o buguelito</h1>
+      <HeaderP />
+      <GithubCorner projectUrl="https://github.com/AlanPoveda" />
     </>
   )
 }
