@@ -1,4 +1,3 @@
-import GithubCorner from "../src/components/GithubCorner";
 import styled from "styled-components";
 
 import HeaderP from "../src/components/HeaderP";
@@ -12,43 +11,29 @@ import ValueMartingale from "../src/components/ValueMartingale";
 import ButtonLose from "../src/components/ButtonLose";
 import ButtonWin from "../src/components/ButtonWin";
 
-const Conteudo = styled.div`
-  display: flex;
-  justify-content: space-around;
-`;
-
-const Dados = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
-const Values = styled.div`
-  display: flex;
-`;
-
-const Buttons = styled.div`
-  display: flex;
-`
-
 function MyApp() {
   return (
-    <>
+    <div
+      style={{
+        backgroundImage: `url("https://s29755.pcdn.co/wp-content/uploads/2019/02/bullvsbear-1.jpg")
+      `,
+        backgroundSize: "cover",
+        height: "100vh",
+        color: "#f5f5f5",
+      }}
+    >
       <HeaderP />
-      <Conteudo>
-        <Dados>
-          <InputBanca />
-          <InputObjetive />
-          <InputPayout />
-          <InputQtdEntradas />
-        </Dados>
-        <Values>
-          <ValueMartingale />
-          <Buttons> 
-            <ButtonLose />
-            <ButtonWin />
-          </Buttons>
-        </Values>
-      </Conteudo>
-    </>
+
+      <InputBanca />
+      <InputObjetive />
+      <InputPayout />
+      <InputQtdEntradas />
+
+      <ValueMartingale />
+
+      <ButtonLose />
+      <ButtonWin />
+    </div>
   );
 }
 
