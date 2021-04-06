@@ -15,8 +15,6 @@ const Globalstyle = createGlobalStyle`
    body {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
     font-family: 'Lato', sans-serif;
     color: #f5f5f5;
 
@@ -34,11 +32,13 @@ function MyApp() {
   return (
     <BackgroundImage>
       <HeaderP />
-
+      
+      
       <InputBanca />
       <InputObjetive />
       <InputPayout />
       <InputQtdEntradas />
+      
 
       <ValueMartingale />
 

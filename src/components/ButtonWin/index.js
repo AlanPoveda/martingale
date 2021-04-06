@@ -1,7 +1,7 @@
 export default function ButtonWin(){
     return(
         <>
-            <button>Win</button>
+            <h1>Win</h1>
         </>
     )
 }

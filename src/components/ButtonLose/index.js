@@ -1,7 +1,7 @@
 export default function ButtonLose(){
     return(
         <>
-            <button>Lose</button>
+            <h1>Lose</h1>
         </>
     )
 }
