@@ -38,12 +38,6 @@ function MyApp() {
       <InputObjetive />
       <InputPayout />
       <InputQtdEntradas />
-      
-
-      <ValueMartingale />
-
-      <ButtonLose />
-      <ButtonWin />
       <Globalstyle />
     </BackgroundImage>
   );

@@ -1,14 +1,13 @@
 import styled from 'styled-components'
 
-const TitleHeader = styled.h1`
-    
-
+const TitleHeader = styled.div`    
+    display: flex;
 `
 
 export default function HeaderP(){
     return(
-        <div>
-            <TitleHeader> Martingale </TitleHeader>
-        </div>
+        <TitleHeader>
+            <h1> Martingale </h1>
+        </TitleHeader>
     )
 }
