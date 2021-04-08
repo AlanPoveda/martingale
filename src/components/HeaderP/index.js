@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const TitleHeader = styled.div`    
-    display: flex;
+    text-align:center;
 `
 
 export default function HeaderP(){
